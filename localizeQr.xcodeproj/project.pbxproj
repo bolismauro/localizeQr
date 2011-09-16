@@ -16,6 +16,7 @@
 		3485726614238AD400B43EC2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3485726414238AD400B43EC2 /* MainWindow.xib */; };
 		3485726914238AD400B43EC2 /* localizeQrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3485726814238AD400B43EC2 /* localizeQrViewController.m */; };
 		3485726C14238AD400B43EC2 /* localizeQrViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3485726A14238AD400B43EC2 /* localizeQrViewController.xib */; };
+		3485727314238B3F00B43EC2 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 3485727214238B3F00B43EC2 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,17 @@
 		3485725214238AD400B43EC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3485725414238AD400B43EC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3485725614238AD400B43EC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3485725A14238AD400B43EC2 /* localizeQr-Info.plist */ = {isa = PBXFileReference; path = "localizeQr-Info.plist"; sourceTree = "<group>"; };
+		3485725A14238AD400B43EC2 /* localizeQr-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "localizeQr-Info.plist"; sourceTree = "<group>"; };
 		3485725C14238AD400B43EC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3485725E14238AD400B43EC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3485726014238AD400B43EC2 /* localizeQr-Prefix.pch */ = {isa = PBXFileReference; path = "localizeQr-Prefix.pch"; sourceTree = "<group>"; };
-		3485726114238AD400B43EC2 /* localizeQrAppDelegate.h */ = {isa = PBXFileReference; path = localizeQrAppDelegate.h; sourceTree = "<group>"; };
+		3485726014238AD400B43EC2 /* localizeQr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "localizeQr-Prefix.pch"; sourceTree = "<group>"; };
+		3485726114238AD400B43EC2 /* localizeQrAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = localizeQrAppDelegate.h; sourceTree = "<group>"; };
 		3485726214238AD400B43EC2 /* localizeQrAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = localizeQrAppDelegate.m; sourceTree = "<group>"; };
 		3485726514238AD400B43EC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		3485726714238AD400B43EC2 /* localizeQrViewController.h */ = {isa = PBXFileReference; path = localizeQrViewController.h; sourceTree = "<group>"; };
+		3485726714238AD400B43EC2 /* localizeQrViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = localizeQrViewController.h; sourceTree = "<group>"; };
 		3485726814238AD400B43EC2 /* localizeQrViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = localizeQrViewController.m; sourceTree = "<group>"; };
 		3485726B14238AD400B43EC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/localizeQrViewController.xib; sourceTree = "<group>"; };
+		3485727214238B3F00B43EC2 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		3485724314238AD400B43EC2 = {
 			isa = PBXGroup;
 			children = (
+				3485727214238B3F00B43EC2 /* README */,
 				3485725814238AD400B43EC2 /* localizeQr */,
 				3485725114238AD400B43EC2 /* Frameworks */,
 				3485724F14238AD400B43EC2 /* Products */,
@@ -151,6 +154,7 @@
 				3485725D14238AD400B43EC2 /* InfoPlist.strings in Resources */,
 				3485726614238AD400B43EC2 /* MainWindow.xib in Resources */,
 				3485726C14238AD400B43EC2 /* localizeQrViewController.xib in Resources */,
+				3485727314238B3F00B43EC2 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
