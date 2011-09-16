@@ -2,3 +2,9 @@ Developer Bolis Mauro, Trizero S.r.l.
 
 www.trizero.it
 mauro@trizero.it
+
+
+
+TODOs:
+-add initial message (the device use your UID...)
+-check [CLLocalizationManager locationServicesEnabled]: show an alert if the localization is disabled

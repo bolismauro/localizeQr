@@ -7,7 +7,26 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import "ZBarSDK.h"
 
-@interface localizeQrViewController : UIViewController
+@interface localizeQrViewController : UIViewController<ZBarReaderDelegate, MKMapViewDelegate> {
+    UILabel *labelLatitudine;
+    UILabel *latitudeLabel;
+    UILabel *longitudeLabel;
+    MKMapView *map;
+}
+@property (nonatomic, retain) IBOutlet UILabel *latitudeLabel;
+@property (nonatomic, retain) IBOutlet UILabel *longitudeLabel;
+@property (nonatomic, retain) IBOutlet MKMapView *map;
 
+@property (retain, nonatomic) IBOutlet UIView *infoView;
+
+
+
+-(void) showCamera:(UISwipeGestureRecognizer*)swipeGesture;
+-(void) scanCompletatoConCodice:(NSString*)codice;
+
+//background
+-(void) avviaLoading:(NSString*)text;
 @end

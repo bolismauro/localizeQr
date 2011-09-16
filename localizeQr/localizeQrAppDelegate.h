@@ -10,7 +10,11 @@
 
 @class localizeQrViewController;
 
+#define MainWindow ((UIWindow *)[[UIApplication sharedApplication] delegate]).window
+
+
 @interface localizeQrAppDelegate : NSObject <UIApplicationDelegate>
+
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
